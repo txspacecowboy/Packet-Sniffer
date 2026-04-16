@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Network Analyzer",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"src/network_analyzer.py"
+			],
+			"group": "build"
+		}
+	]
+}
